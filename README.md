@@ -14,41 +14,42 @@ The game logically works on all OS, but prefer a machine under Windows.
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Download the executable corresponding to your OS
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+Download the executable corresponding to your OS
 ```
 code blocks for commands
 ```
 
 ## Help
 
-Any advise for common problems or issues.
+null
 ```
-command to run if program contains helper info
+help
 ```
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+- Slatty
+   https://github.com/SLATTY54
+   mailto:kinzelinr@gmail.com
+   
+   
+- Leonarddoo
+   https://github.com/Leonarddoo
+   mailto:samuel.pomin@gmail.com
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+* 1.0
+    * Official Game
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+Null
 
 ## Acknowledgments

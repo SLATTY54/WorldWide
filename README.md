@@ -35,13 +35,13 @@ help
 * Contributors names and contact info
 
 - Slatty
-* https://github.com/SLATTY54
-* mailto:kinzelinr@gmail.com
+*  https://github.com/SLATTY54
+*  mailto:kinzelinr@gmail.com
    
    
 - Leonarddoo
-* https://github.com/Leonarddoo
-* mailto:samuel.pomin@gmail.com
+*  https://github.com/Leonarddoo
+*  mailto:samuel.pomin@gmail.com
 
 ## Version History
 

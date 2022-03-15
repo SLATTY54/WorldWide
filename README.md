@@ -36,12 +36,12 @@ help
 
 - Slatty
 *  https://github.com/SLATTY54
-*  mailto:kinzelinr@gmail.com
+*  kinzelinr@gmail.com
    
    
 - Leonarddoo
 *  https://github.com/Leonarddoo
-*  mailto:samuel.pomin@gmail.com
+*  samuel.pomin@gmail.com
 
 ## Version History
 

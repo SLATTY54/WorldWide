@@ -19,11 +19,9 @@ public class ForestFire : MonoBehaviour
     //booleen permettant exécuter qu'une fois la methode createFire
     private bool isFire = false;
 
-    //coordonnée x 
-    //private float x = 3f;
+    
 
-    //coordonnée z 
-    private float z;
+    //dossier dans lequel on voudra mettre les feux 
     public GameObject fireContainer;
     // Start is called before the first frame update
     void Start()
@@ -31,7 +29,7 @@ public class ForestFire : MonoBehaviour
         //la position du capteur sera positionner a la meme position que le feu 
         capteurZone.transform.position = fire.transform.position;
         
-        z= fire.transform.position.z;
+        
 
         
         
@@ -41,23 +39,33 @@ public class ForestFire : MonoBehaviour
     //méthode appeler a chaque frame
     void Update()
     {   
-
+        //Condition qui permet de verifier si le countDown est a 0 
         if(CountdownFire.fire && !isFire){
+            //on active l'audio du feu
             audio.Play();
+            //on passe le booleen en true pour éviter de revenir sur cette condition a chaque frame 
             isFire = true;
+            //On appel la coroutine 
             StartCoroutine(createFire()); 
         }
     }
     
+    //Methode qui creer plusieurs feu aleatoirement dans la map chaques secondes 
     IEnumerator createFire(){
         //boucle infinie
         while(true){
-                GameObject fireClone = Instantiate(fire,new Vector3(Random.Range(-73.58f, 74.21f),fire.transform.position.y,Random.Range(21f, 150f)),fire.transform.rotation);
-                capteurZone.transform.position = fireClone.transform.position;
-                fireClone.transform.parent = fireContainer.transform;
-                fire.transform.name = "FireClone"+(nbFire+1);
-                nbFire++;
+            //on creer un clone du feu principal a une position aleatoire sur la carte 
+            GameObject fireClone = Instantiate(fire,new Vector3(Random.Range(-73.58f, 74.21f),fire.transform.position.y,Random.Range(21f, 150f)),fire.transform.rotation);
+            //un game object va suivre chaque feu qui permettra de voir si il est dans la zone 
+            capteurZone.transform.position = fireClone.transform.position;
+            //le clone sera mis dans le dossier "fire Container"
+            fireClone.transform.parent = fireContainer.transform;
+            //le clone aura comme nom :  FireClone + son numéro 
+            fire.transform.name = "FireClone"+(nbFire+1);
+            //on rajoute 1 au compteur de feu 
+            nbFire++;
 
+            //Creation d'un nouveau feu dans 1 seconde
             yield return new WaitForSeconds(1);
             
         }

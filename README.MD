@@ -17,6 +17,18 @@ A l'intérieur de ce dossier vous trouverez un executable qui vous permettra de 
 
 *Malgrès que le jeu a été testé et fonctionne sur toutes les plateformes, nous vous conseillons d'utiliser Windows qui est le plus adapté pour les jeux.*
 
+## Préventions de Bug
+
+* Cinématique qui ne s'affiche pas à cause de l'encodec
+
+Si vous n'avez pas le Codec HEVC (non présent de base sur Windows), coller cela dans un naviguateur : <br> `ms-windows-store://pdp/?ProductId=9n4wgh0z6vhq` <br>
+Une pop-up apparaîtra et vous demandera si vous voulez ouvrir ce lien avec le WindowsStore, cliquez sur OK et il il vous suffira simplement de lancer le téléchargement.
+
+* Apparition de Lags
+
+Malgrès le fait que nous avons fait de notre mieux pour que le jeu demande le moins de ressources possible. Il se peut, selon la machine que vous ayez quelques lags sur le niveau 2. <br>
+Il est donc conseiller d'utiliser par préférence un PC fixe, où un bon PC portable.
+
 ## Auteurs
 
 * Rémy Kinzellin

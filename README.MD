@@ -10,8 +10,9 @@ Dans ce dépot se trouve l'intégralité des scripts que nous avons réalisés. 
 
 ## Installation 
 
-Pour l'installation rien de plus facile, il vous suffit de vous rendre sur le lien google Drive suivant : 
-Et de télécharger le dossier correspondant à système d'exploitation (*windows/linux/mac*).<br>
+Pour l'installation rien de plus facile, il vous suffit de vous rendre sur le lien **Google Drive** suivant : https://drive.google.com/drive/folders/1MagPkFbRb-XilX_JZQ5vhw6_uL1K_t29?usp=sharing
+
+Et de télécharger le dossier correspondant à votre système d'exploitation (*windows/linux/mac*).<br>
 A l'intérieur de ce dossier vous trouverez un executable qui vous permettra de lancer le jeu.
 
 *Malgrès que le jeu a été testé et fonctionne sur toutes les plateformes, nous vous conseillons d'utiliser Windows qui est le plus adapté pour les jeux.*

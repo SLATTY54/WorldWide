@@ -31,7 +31,7 @@ Il est donc conseiller d'utiliser par préférence un PC fixe, où un bon PC por
 
 ## Auteurs
 
-* Rémy Kinzellin
+* Rémy Kinzelin
 * Pomin Samuel
 
 
